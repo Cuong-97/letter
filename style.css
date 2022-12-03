@@ -47,10 +47,11 @@ body{
     display: flex;
     font-family: "Poppins", sans-serif;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-image: url(./img/bg.jpg);
     background-size: auto;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .modal{
     position: fixed;
@@ -62,13 +63,14 @@ body{
     height: 100vh;
     background-image: url(./img/bg.jpg);
     background-size: auto;
+    background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
     display: none;
     z-index: 100000;
 }
 .close{
-    display: flex !important;
+    display: none !important;
 }
 .modal_container{
     top: 0;
@@ -113,10 +115,10 @@ body{
 
 .page_1{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 .page_1 .container{
@@ -192,27 +194,13 @@ body{
     position: relative;
     color: var(--color-white);
 }
-.page_1 .sub h4 i{
-    animation: scroll 2s infinite;
-}
-@keyframes scroll {
-    0% {
-        color: var(--color-red);
-    }  
-    50% {
-        color: white;
-    }
-    100% {
-        color: var(--color-red);
-    }
-}
 
 
 /* --------- page 2 --------- */
 
 .page_2{
     width: 80%;
-    height: 200vh;
+    height: fit-content;
     margin: 0rem auto 5rem auto;
     padding-top: 2rem;
     cursor: default;
@@ -226,6 +214,7 @@ body{
 }
 
 .page_2 .content{
+    margin-bottom: 3rem;
     padding-top: 3rem;
     display: flex;
     justify-content: space-between;
@@ -272,28 +261,28 @@ body{
     border-radius: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 .page_2 .container .card_3{
-    transform: translateX(4.5rem);
+    transform: translateX(30vw);
     text-align: right;
     color: var(--color-primary);
-    width: 15rem;
+    width: 50vw;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
 .page_2 .container .card_4{
-    transform: translateX(7.5rem);
+    transform: translateX(30vw);
     text-align: right;
     color: var(--color-primary);
-    width: 12rem;
+    width: 50vw;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.5rem 0.5rem 1.5rem 1.5rem;
 }
 .page_2 .container .card_5{
-    transform: translateX(7.5rem);
-    text-align: center;
+    transform: translateX(30vw);
+    text-align: right;
     color: var(--color-primary);
-    width: 12rem;
+    width: 50vw;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
@@ -338,19 +327,19 @@ body{
     border-radius: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 .page_2 .container .card_10{
-    transform: translateX(5rem);
+    transform: translateX(20vw);
     text-align: right;
     color: var(--color-primary);
-    width: 14.5rem;
+    width: 60vw;
     margin: 2rem 0 0.5rem 0;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     border-radius: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
 .page_2 .container .card_11{
-    transform: translateX(5rem);
+    transform: translateX(20vw);
     text-align: right;
     color: var(--color-primary);
-    width: 14.5rem;
+    width: 60vw;
     margin: 0.5rem 0;
     padding: 0.5rem 0.5rem 0.5rem 0rem;
     border-radius: 1.5rem 0.5rem 1.5rem 1.5rem;
@@ -360,14 +349,11 @@ body{
     color: var(--color-primary);
     width: 80vw;
     margin: 0.5rem 0;
-    padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .page_2 .container .card_12 i{
-    top: 2rem;
-    right: 0.8rem;
     color: var(--color-red);
-    position: absolute;
 }
 .page_2 .container .card_13{
     transform: translateX(1.65rem);
@@ -383,7 +369,7 @@ body{
     text-align: center;
     background-color: var(--color-white);
     width: 80vw;
-    height: 4.4rem;
+    height: auto;
     margin: 0.5rem 0;
     padding: 0.5rem;
     border-radius: 2rem;
@@ -392,7 +378,7 @@ body{
     text-align: center;
     background-color: transparent;
     width: 80vw;
-    margin: 2rem 0 0 0;
+    margin: 2rem 0 5rem 0;
     padding: 0;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     color: var(--color-white);
