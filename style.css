@@ -241,6 +241,7 @@ body{
 
 .page_2 .container .card{
     margin: 1rem 0;
+    font-size: 0.85rem;
     font-style: italic;
     color: var(--color-primary);
     display: block;
@@ -248,7 +249,7 @@ body{
     background-color: white;
 }
 .page_2 .container .card_1{
-    width: 14rem;
+    width: 52vw;
     margin: 0.5rem 0;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
@@ -280,7 +281,7 @@ body{
 }
 .page_2 .container .card_5{
     transform: translateX(30vw);
-    text-align: right;
+    text-align: center;
     color: var(--color-primary);
     width: 50vw;
     margin: 0.5rem 0;
@@ -367,12 +368,11 @@ body{
 }
 .page_2 .container .card_14{
     text-align: center;
-    background-color: var(--color-white);
+    background-color: transparent;
     width: 80vw;
     height: auto;
     margin: 0.5rem 0;
     padding: 0.5rem;
-    border-radius: 2rem;
 }
 .page_2 .container .card_15{
     text-align: center;
@@ -380,6 +380,5 @@ body{
     width: 80vw;
     margin: 2rem 0 5rem 0;
     padding: 0;
-    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     color: var(--color-white);
 }
