@@ -70,7 +70,7 @@ body{
     z-index: 100000;
 }
 .close{
-    display: none !important;
+    display: flex !important;
 }
 .modal_container{
     top: 0;
