@@ -80,15 +80,15 @@ body{
     margin: auto;
     padding: 2rem;
     background-color: white;
-    width: 82vw;
-    height: 82vw;
+    width: 80vw;
+    height: 80vw;
     position: absolute;
     border-radius: 1.5rem;
 }
 .text_1{
     color: var(--color-red);
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     display: block;
     margin-bottom: 2px;
 }
@@ -110,7 +110,15 @@ body{
         color: white;
     }
 }
-
+.modal_container img{
+    text-align: center;
+    width: 64vw;
+    height: auto;
+    padding: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+}
 /* --------- page 1 --------- */
 
 .page_1{
@@ -178,7 +186,7 @@ body{
 }
 .page_1 .sub{
     width: 100%;
-    bottom: 9.4rem;
+    bottom: 9.65rem;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -266,7 +274,7 @@ body{
     text-align: right;
     color: var(--color-primary);
     width: 50vw;
-    margin: 0.5rem 0;
+    margin: 2rem 0 0.5rem 0;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
@@ -301,20 +309,20 @@ body{
 }
 .page_2 .container .card_6 i{
     top: 4rem;
-    right: 0;
+    right: 0.2rem;
     color: var(--color-red);
     position: absolute;
 }
 .page_2 .container .card_7{
     color: var(--color-primary);
-    width: 12.5rem;
+    width: 11rem;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.5rem 1.5rem 1.5rem 0.5rem;
 }
 .page_2 .container .card_8{
     color: var(--color-primary);
-    width: 16rem;
+    width: 15.5rem;
     margin: 0.5rem 0;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 0.5rem 1.5rem 1.5rem 0.5rem;
@@ -360,10 +368,7 @@ body{
     transform: translateX(1.65rem);
     text-align: left;
     background-color: transparent;
-    width: 80vw;
     margin: 2rem 0 0 0;
-    padding: 0;
-    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
     color: var(--color-white);
 }
 .page_2 .container .card_14{
@@ -372,13 +377,10 @@ body{
     width: 80vw;
     height: auto;
     margin: 0.5rem 0;
-    padding: 0.5rem;
 }
 .page_2 .container .card_15{
     text-align: center;
     background-color: transparent;
-    width: 80vw;
     margin: 2rem 0 5rem 0;
-    padding: 0;
     color: var(--color-white);
 }
