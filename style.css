@@ -1,36 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 :root {
     --color-white: hsl(252, 30%, 100%);
-    --color-light: hsl(252, 30%, 95%);
-    --color-gray: hsl(252, 15%, 65%);
     --color-primary: rgb(29, 50, 157);
-    --color-secondary: hsl(252, 100%, 90%);
-    --color-success: hsl(120, 95%, 65%);
     --color-red: rgb(210, 49, 87);
-    --color-dark: hsl(252, 30%, 17%);
-    --color-black: hsl(252, 30%, 10%);
     --color-blue: rgb(37, 82, 117);
-    --color-green: rgb(86, 207, 62);
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary-variant: rgba(255, 77, 77, 0.4);
     --color-primary-2: #ffc8c9;
     --color-primary-3: #c8f9ff;
-    --color-pink: rgb(254, 140, 244);
-
-
-    --border-radius: 2rem;
-    --card-border-radius: 1rem;
-    --btn-padding: 0.6rem 2rem;
-    --search-padding: 0.6rem 1rem;
-    --card-padding: 1rem;
-
-    --sticky-top-left: 5.4rem;
-    --sticky-top-right: -18rem;
 }
 
 *, *::before, *::after{
@@ -99,16 +73,6 @@ body{
     display: block;
     margin-bottom: 15px;
     animation: icon 1s infinite;
-}
-@keyframes icon {
-    from {
-        color: var(--color-red);
-        top: 0;
-    }  
-    to {
-        top: 2px;
-        color: white;
-    }
 }
 .modal_container img{
     text-align: center;
