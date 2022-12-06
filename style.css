@@ -300,19 +300,19 @@ body{
     border-radius: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 .page_2 .container .card_10{
-    transform: translateX(20vw);
+    transform: translateX(18vw);
     text-align: right;
     color: var(--color-primary);
-    width: 60vw;
+    width: 62vw;
     margin: 2rem 0 0.5rem 0;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     border-radius: 1.5rem 1.5rem 0.5rem 1.5rem;
 }
 .page_2 .container .card_11{
-    transform: translateX(20vw);
+    transform: translateX(18vw);
     text-align: right;
     color: var(--color-primary);
-    width: 60vw;
+    width: 62vw;
     margin: 0.5rem 0;
     padding: 0.5rem 0.5rem 0.5rem 0rem;
     border-radius: 1.5rem 0.5rem 1.5rem 1.5rem;
@@ -329,7 +329,7 @@ body{
     color: var(--color-red);
 }
 .page_2 .container .card_13{
-    transform: translateX(1.25rem);
+    transform: translateX(1rem);
     text-align: left;
     background-color: transparent;
     margin: 2rem 0 0 0;
