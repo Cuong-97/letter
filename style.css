@@ -44,7 +44,7 @@ body{
     z-index: 100000;
 }
 .close{
-    display: none !important;
+    display: flex !important;
 }
 .modal_container{
     top: 0;
@@ -349,12 +349,12 @@ body{
     color: var(--color-white);
 }
 .page_2 .container .card_16{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 100;
     text-align: center;
     background-color: transparent;
     margin: 0.5rem 0;
-    color: rgb(146 154 156);
+    color: var(--color-white);
 }
 .page_2 .container .card_17{
     text-align: center;
@@ -366,12 +366,12 @@ body{
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .page_2 .container .card_18{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 100;
     text-align: center;
     background-color: transparent;
     margin: 0.5rem 0;
-    color: rgb(146 154 156);
+    color: var(--color-white);
 }
 .page_2 .container .card_19{
     transform: translateX(28vw);
