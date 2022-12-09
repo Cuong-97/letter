@@ -1,8 +1,8 @@
 :root {
     --color-white: hsl(252, 30%, 100%);
     --color-primary: rgb(29, 50, 157);
-    --color-red: rgb(239, 54, 97);
-    --color-blue: rgb(2, 143, 230);
+    --color-red: rgb(247, 54, 99);
+    --color-blue: rgb(2, 150, 243);
     --color-primary-2: #ffc8c9;
     --color-primary-3: #c8f9ff;
 }
@@ -345,7 +345,7 @@ body{
 .page_2 .container .card_15{
     text-align: center;
     background-color: transparent;
-    margin: 2rem 0 8rem 0;
+    margin: 2rem 0 10rem 0;
     color: var(--color-white);
 }
 .page_2 .container .card_16{
@@ -362,7 +362,7 @@ body{
     color: var(--color-white);
     width: 12rem;
     margin: 0.5rem 0 2rem 0;
-    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .page_2 .container .card_18{
@@ -380,6 +380,6 @@ body{
     color: var(--color-white);
     width: 52vw;
     margin: 0.5rem 0;
-    padding: 0.5rem 0.5rem 0.5rem 0.2rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
